@@ -1,0 +1,165 @@
+(footprint "TACTILE-SWITCH"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "S2"
+		(at 3 1.5 -90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "29403572-0eb1-47b4-858b-1635662c27af")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify right bottom)
+		)
+	)
+	(property "Value" "SW"
+		(at -3.25 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ee2ceb56-4ca9-4b41-93f1-90b21c7c6f53")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify right)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b385571e-2433-40d5-8778-05177b2e54f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3262487-fcb1-4310-89ef-d2451dae7c3d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4a1db88-25f1-40a5-82e1-aa59b60e7e79")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.7 -0.6)
+		(end -2.7 0.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f5533f1a-42d8-41ea-9b56-399b5b00cac8")
+	)
+	(fp_line
+		(start -1.7 -1.8)
+		(end 1.7 -1.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c810fe9-8b46-4283-b13c-41673aa77886")
+	)
+	(fp_line
+		(start -1.7 1.8)
+		(end 1.7 1.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eb33d632-67d3-471f-b180-aa0b7162bba5")
+	)
+	(fp_line
+		(start 2.7 -0.6)
+		(end 2.7 0.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cfbcc56f-59d3-4f52-9639-1b68ea00bff3")
+	)
+	(fp_rect
+		(start -3 -2)
+		(end 3 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "16156fd8-5c7b-4389-8d02-73fb6c263e41")
+	)
+	(pad "1" smd rect
+		(at -2.25 1.075)
+		(size 1 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "d14a51a0-8f87-4100-a399-563828df7c03")
+	)
+	(pad "2" smd rect
+		(at 2.25 1.075)
+		(size 1 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "d65f3a9f-98fd-4af2-a609-2299408f653c")
+	)
+	(pad "3" smd rect
+		(at -2.25 -1.075)
+		(size 1 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "84a7886c-6c3c-4ec8-a299-e1c55e6ed453")
+	)
+	(pad "4" smd rect
+		(at 2.25 -1.075)
+		(size 1 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "716a54c0-5895-4009-bf91-e8ccd2e7fa2c")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_EVQP2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
