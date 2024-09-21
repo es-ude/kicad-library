@@ -673,7 +673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "converter:TSSOP-24-1EP_4.4x7.8mm_P0.65mm_EP3.2x5mm"
+		(property "Footprint" "custom_library:TSSOP-24-1EP_4.4x7.8mm_P0.65mm_EP3.2x5mm"
 			(at 0 -61.214 0)
 			(effects
 				(font
