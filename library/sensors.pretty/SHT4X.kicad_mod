@@ -1,0 +1,198 @@
+(footprint "SHT4X"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Consumer SHT4x Digital and Analog")
+	(property "Reference" "REF**"
+		(at 1.975 -1.635 0)
+		(layer "F.SilkS")
+		(uuid "38edc2c9-c399-45f0-8576-29cb3d587c9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SHT4X"
+		(at 1.875 1.665 0)
+		(layer "F.Fab")
+		(uuid "b2452108-e430-40e3-a545-f5fdc998f049")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fb94553-5154-420d-87c2-5207537f4c6a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f54af67f-e353-4d38-bb34-28c9e44034f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36a0a644-2d50-4bc4-9dbc-49e697bfb845")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.7 -0.75)
+		(end 0.7 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3dfd6c0c-6fdc-434f-9335-0b61ea7962a8")
+	)
+	(fp_line
+		(start -0.7 0.75)
+		(end 0.7 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "629ae3aa-e78b-4140-b800-269557fa287b")
+	)
+	(fp_circle
+		(center -1 -0.8)
+		(end -0.95 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "0c97ed70-5481-4b70-a8ba-ec91326bcc44")
+	)
+	(fp_line
+		(start -0.75 -0.75)
+		(end -0.75 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c01c1797-dc3b-4d8c-90a6-077d03b8ff0e")
+	)
+	(fp_line
+		(start -0.75 0.75)
+		(end 0.75 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e5064b20-38aa-4d76-9c57-aa0300cafa42")
+	)
+	(fp_line
+		(start 0.75 -0.75)
+		(end -0.75 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "0bbf6e9d-f753-4e7a-8f89-54ee9ec747ae")
+	)
+	(fp_line
+		(start 0.75 0.75)
+		(end 0.75 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "579e1ea0-4d2a-4a2f-9006-908ed02e20c1")
+	)
+	(fp_rect
+		(start -1.1 -0.8)
+		(end 1.1 0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "5835d95d-541f-4ba3-8fc3-fbf5ad4a6ff7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "0b4b7d39-861a-4180-b05a-c6b8cef597fb")
+	)
+	(pad "1" smd rect
+		(at -0.7 -0.4)
+		(size 0.5 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "dffeb8d8-2f6c-4f23-839f-82072ba23629")
+	)
+	(pad "2" smd rect
+		(at -0.7 0.4)
+		(size 0.5 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "9ac46232-1014-4d3a-8340-80f2885ea49d")
+	)
+	(pad "3" smd rect
+		(at 0.7 0.4)
+		(size 0.5 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "09da1a30-a783-4f61-bc92-48f719c85936")
+	)
+	(pad "4" smd rect
+		(at 0.7 -0.4)
+		(size 0.5 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "3e47048f-6f00-4f3b-8456-398c7b0777e0")
+	)
+	(model "${KICAD8_OWNLIB_DIR}/3d-models/SHT4x.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
