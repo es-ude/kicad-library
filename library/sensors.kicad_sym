@@ -1782,10 +1782,10 @@
 					(type background)
 				)
 			)
-			(pin power_in line
-				(at -10.16 -2.54 0)
+			(pin bidirectional line
+				(at -10.16 -10.16 0)
 				(length 2.54)
-				(name "VDD"
+				(name "SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1818,10 +1818,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -10.16 -10.16 0)
+			(pin power_in line
+				(at -10.16 -2.54 0)
 				(length 2.54)
-				(name "SDA"
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
