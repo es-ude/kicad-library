@@ -441,7 +441,7 @@
 			)
 		)
 	)
-	(symbol "ADP7142CP"
+	(symbol "ADP7142xCP"
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
@@ -453,7 +453,7 @@
 				)
 			)
 		)
-		(property "Value" "ADP7142CP"
+		(property "Value" "ADP7142xCP"
 			(at 0 1.524 0)
 			(effects
 				(font
@@ -488,7 +488,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "ADP7142CP_1_1"
+		(symbol "ADP7142xCP_1_1"
 			(rectangle
 				(start -7.62 0)
 				(end 7.62 -17.78)

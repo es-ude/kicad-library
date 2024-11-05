@@ -180,7 +180,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "9d29fa28-544c-44df-8a15-36fbe7aaadfc")
 	)
-	(model "${KIPRJMOD}/lib/3d-models/Geyer_KX7.step"
+	(model "${KICAD8_OWNLIB_DIR}/3d-models/Geyer_KX7.step"
 		(offset
 			(xyz 0 0 -0.1)
 		)

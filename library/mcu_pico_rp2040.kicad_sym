@@ -1403,45 +1403,50 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -29.21 49.53 0)
+			(at 29.21 -46.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right top)
 			)
 		)
 		(property "Value" "RP2040"
-			(at 24.13 -49.53 0)
+			(at 29.21 -48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right top)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm_ThermalVias"
-			(at -19.05 0 0)
+		(property "Footprint" "custom_library:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm"
+			(at -0.254 -67.818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf"
-			(at -19.05 0 0)
+			(at 0 -70.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(property "Description" "MCU Raspberry Pi Pico (RP2040)"
-			(at 0 0 0)
+			(at 0 -72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -1465,8 +1470,8 @@
 		)
 		(symbol "RP2040_0_1"
 			(rectangle
-				(start 29.21 48.26)
-				(end -29.21 -48.26)
+				(start -29.21 48.26)
+				(end 29.21 -45.72)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1658,7 +1663,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -50.8 90)
+				(at -31.75 -40.64 0)
 				(length 2.54)
 				(name "TESTEN"
 					(effects
@@ -1748,7 +1753,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 50.8 270)
+				(at -22.86 50.8 270)
 				(length 2.54)
 				(name "DVDD"
 					(effects
@@ -2144,7 +2149,7 @@
 				)
 			)
 			(pin power_in line
-				(at 16.51 50.8 270)
+				(at 13.97 50.8 270)
 				(length 2.54)
 				(name "ADC_AVDD"
 					(effects
@@ -2162,7 +2167,7 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 50.8 270)
+				(at -11.43 50.8 270)
 				(length 2.54)
 				(name "VREG_IN"
 					(effects
@@ -2180,7 +2185,7 @@
 				)
 			)
 			(pin power_out line
-				(at -12.7 50.8 270)
+				(at -15.24 50.8 270)
 				(length 2.54)
 				(name "VREG_VOUT"
 					(effects
@@ -2216,7 +2221,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 31.75 43.18 180)
+				(at 31.75 45.72 180)
 				(length 2.54)
 				(name "USB_DP"
 					(effects
@@ -2234,7 +2239,7 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 50.8 270)
+				(at 11.43 50.8 270)
 				(length 2.54)
 				(name "USB_VDD"
 					(effects
@@ -2288,7 +2293,7 @@
 				)
 			)
 			(pin power_in line
-				(at -20.32 50.8 270)
+				(at -25.4 50.8 270)
 				(length 2.54)
 				(name "DVDD"
 					(effects
@@ -2324,7 +2329,7 @@
 				)
 			)
 			(pin output line
-				(at -31.75 16.51 0)
+				(at -31.75 17.78 0)
 				(length 2.54)
 				(name "QSPI_SCLK"
 					(effects
@@ -2396,7 +2401,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -31.75 31.75 0)
+				(at -31.75 15.24 0)
 				(length 2.54)
 				(name "QSPI_SS"
 					(effects
@@ -2414,7 +2419,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -50.8 90)
+				(at -31.75 -43.18 0)
 				(length 2.54)
 				(name "GND"
 					(effects

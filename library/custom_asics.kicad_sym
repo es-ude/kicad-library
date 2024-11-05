@@ -426,7 +426,7 @@
 			)
 			(pin no_connect line
 				(at -16.51 -86.36 0)
-				(length 2.54)
+				(length 2.54) hide
 				(name "NC"
 					(effects
 						(font
@@ -1234,10 +1234,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -16.51 -8.89 0)
-				(length 2.54)
-				(name "START_STIM"
+			(pin no_connect line
+				(at -16.51 -86.36 0)
+				(length 2.54) hide
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)

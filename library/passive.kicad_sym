@@ -2410,7 +2410,7 @@
 			)
 		)
 	)
-	(symbol "KX7_QRZ_25MHz"
+	(symbol "KX7_QRZ"
 		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2423,7 +2423,7 @@
 				)
 			)
 		)
-		(property "Value" "KX7_QRZ_25MHz"
+		(property "Value" "KX7_QRZ"
 			(at 3.81 5.842 0)
 			(effects
 				(font
@@ -2507,7 +2507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "25.000MHz"
+		(property "Val" "16.000MHz"
 			(at 3.81 3.81 0)
 			(effects
 				(font
@@ -2515,7 +2515,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "Crystals CRYSTAL 25.0000MHZ 18PF SMD"
+		(property "ki_keywords" "Crystals CRYSTAL 18PF SMD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2524,7 +2524,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "KX7_QRZ_25MHz_1_1"
+		(symbol "KX7_QRZ_1_1"
 			(polyline
 				(pts
 					(xy 2.54 1.27) (xy 2.54 -1.27)
