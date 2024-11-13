@@ -218,7 +218,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -11.43 -38.1 0)
 				(length 2.54) hide
 				(name "EXP"
@@ -598,7 +598,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -11.43 -30.48 0)
 				(length 2.54) hide
 				(name "EXP"
@@ -978,7 +978,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -11.43 -30.48 0)
 				(length 2.54) hide
 				(name "EXP"
@@ -6479,7 +6479,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at 11.43 -10.16 180)
 				(length 2.54)
 				(name "IND"
@@ -6659,7 +6659,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -11.43 -10.16 0)
 				(length 2.54)
 				(name "OUTD"
