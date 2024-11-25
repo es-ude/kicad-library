@@ -160,28 +160,24 @@
 		(at -0.7 -0.4)
 		(size 0.5 0.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
 		(uuid "dffeb8d8-2f6c-4f23-839f-82072ba23629")
 	)
 	(pad "2" smd rect
 		(at -0.7 0.4)
 		(size 0.5 0.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
 		(uuid "9ac46232-1014-4d3a-8340-80f2885ea49d")
 	)
 	(pad "3" smd rect
 		(at 0.7 0.4)
 		(size 0.5 0.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
 		(uuid "09da1a30-a783-4f61-bc92-48f719c85936")
 	)
 	(pad "4" smd rect
 		(at 0.7 -0.4)
 		(size 0.5 0.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
 		(uuid "3e47048f-6f00-4f3b-8456-398c7b0777e0")
 	)
 	(model "${KICAD8_OWNLIB_DIR}/3d-models/SHT4x.STEP"

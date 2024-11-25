@@ -118,7 +118,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -16.51 -19.05 0)
 				(length 2.54)
 				(name "SPI_MOSI"
@@ -136,7 +136,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -16.51 -21.59 0)
 				(length 2.54)
 				(name "SPI_CLK"

@@ -62,56 +62,24 @@
 		)
 	)
 	(fp_line
-		(start -9.12 9.78)
-		(end -9.12 -9.74)
+		(start -9.1 10.5)
+		(end -6.45 10.5)
 		(stroke
-			(width 0.2)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "669e2f76-dce7-4b88-b383-d3587e6cc0cc")
+		(uuid "93b6e7f9-fbf4-4abd-8fbc-5fd318c3ef2f")
 	)
 	(fp_line
-		(start -8.72 10.18)
-		(end 8.48 10.18)
+		(start 8.85 10.4)
+		(end 6.5 10.4)
 		(stroke
-			(width 0.2)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "8e247c2e-b63e-4a70-8c32-64933e91ced0")
-	)
-	(fp_line
-		(start 8.88 -9.74)
-		(end 8.88 9.78)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "c66790a8-2c84-47da-b059-a728d9f51463")
-	)
-	(fp_arc
-		(start -8.72 10.18)
-		(mid -9.002843 10.062843)
-		(end -9.12 9.78)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "fb4e7351-d265-4999-adf6-bc7596c21cf3")
-	)
-	(fp_arc
-		(start 8.88 9.78)
-		(mid 8.762849 10.062855)
-		(end 8.48 10.18)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "119c633c-175b-4b38-bbc1-1a076032c16e")
+		(uuid "f6d1169e-b611-4051-a086-d871d1977dab")
 	)
 	(fp_line
 		(start -8.72 -10.14)
@@ -353,6 +321,26 @@
 		(uuid "6fddb8a0-39be-4404-9bc7-755ac6773413")
 	)
 	(fp_line
+		(start -9.12 9.78)
+		(end -9.12 -9.74)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "669e2f76-dce7-4b88-b383-d3587e6cc0cc")
+	)
+	(fp_line
+		(start -8.72 10.18)
+		(end 8.48 10.18)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8e247c2e-b63e-4a70-8c32-64933e91ced0")
+	)
+	(fp_line
 		(start -4.44 -4.495)
 		(end -4.44 -6.585)
 		(stroke
@@ -401,6 +389,38 @@
 		)
 		(layer "F.Fab")
 		(uuid "1aaf34a3-282e-4633-82fa-9d6cdf32efbb")
+	)
+	(fp_line
+		(start 8.88 -9.74)
+		(end 8.88 9.78)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c66790a8-2c84-47da-b059-a728d9f51463")
+	)
+	(fp_arc
+		(start -8.72 10.18)
+		(mid -9.002843 10.062843)
+		(end -9.12 9.78)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fb4e7351-d265-4999-adf6-bc7596c21cf3")
+	)
+	(fp_arc
+		(start 8.88 9.78)
+		(mid 8.762851 10.062851)
+		(end 8.48 10.18)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "119c633c-175b-4b38-bbc1-1a076032c16e")
 	)
 	(pad "1" thru_hole oval
 		(at -7.74 -8.87)

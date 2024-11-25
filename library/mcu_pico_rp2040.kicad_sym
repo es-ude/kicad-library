@@ -5289,7 +5289,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 11.43 -6.35 180)
 				(length 2.54)
 				(name "GP6"
@@ -5307,7 +5307,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 11.43 -3.81 180)
 				(length 2.54)
 				(name "GP5"
@@ -5325,7 +5325,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 11.43 -1.27 180)
 				(length 2.54)
 				(name "GP4"
@@ -5343,7 +5343,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 11.43 1.27 180)
 				(length 2.54)
 				(name "GP3"
@@ -5361,7 +5361,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 11.43 3.81 180)
 				(length 2.54)
 				(name "GP2"
@@ -5379,7 +5379,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 11.43 6.35 180)
 				(length 2.54)
 				(name "GP1"
@@ -5397,7 +5397,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 11.43 8.89 180)
 				(length 2.54)
 				(name "GP0"
@@ -5415,7 +5415,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -12.7 -19.05 0)
 				(length 2.54)
 				(name "CLK"
@@ -5433,8 +5433,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -11.43 -8.89 0)
+			(pin passive line
+				(at -12.7 -8.89 0)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -5451,7 +5451,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -12.7 -21.59 0)
 				(length 2.54)
 				(name "DIO"
@@ -5470,7 +5470,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -8.89 0)
+				(at -12.7 -8.89 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -5505,7 +5505,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 11.43 -21.59 180)
 				(length 2.54)
 				(name "GP29"
@@ -5523,7 +5523,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 11.43 -19.05 180)
 				(length 2.54)
 				(name "GP28"
@@ -5541,7 +5541,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 11.43 -16.51 180)
 				(length 2.54)
 				(name "GP27"
@@ -5559,7 +5559,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 11.43 -13.97 180)
 				(length 2.54)
 				(name "GP26"
@@ -5577,8 +5577,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -11.43 -8.89 0)
+			(pin passive line
+				(at -12.7 -8.89 0)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -5595,7 +5595,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 11.43 -8.89 180)
 				(length 2.54)
 				(name "GP7"
