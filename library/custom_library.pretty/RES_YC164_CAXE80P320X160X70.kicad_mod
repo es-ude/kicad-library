@@ -1,4 +1,4 @@
-(footprint "RESCAXE80P320X160X70-8N"
+(footprint "RES_YC164_CAXE80P320X160X70"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "RESCAXE80P320X160X70-8N"
+	(property "Value" "RES_YC164_CAXE80P320X160X70"
 		(at 0 2.53 0)
 		(layer "F.Fab")
 		(uuid "50a48b89-b343-4043-9c73-8f72b5ab4e0f")
