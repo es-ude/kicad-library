@@ -1,0 +1,269 @@
+(footprint "MORNTA2502AT5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MORNTA2502AT5-2")
+	(tags "Resistor Network")
+	(property "Reference" "RN**"
+		(at 0 0.217 0)
+		(layer "F.SilkS")
+		(uuid "23e71160-bc88-49e2-a9e8-6b67f801f6cc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MORNTA2502AT5"
+		(at 0 0.217 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "aa7a196c-7b2f-4509-8473-2e1de649bc93")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c164692-85d7-44d1-9c40-bd61d8566dc9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db57c9a3-1b5f-40cf-a9b4-9f16b0be737e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 1.2)
+		(end -1.5 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b33cab23-b3d0-46b4-b4ae-0a2d5da63798")
+	)
+	(fp_line
+		(start -1.2 3)
+		(end -1.2 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "693037da-13bf-45ab-b6a1-21c7ae0987f7")
+	)
+	(fp_line
+		(start -1.2 3.1)
+		(end -1.2 3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d377770c-bfec-4454-b0dd-ca9b827e0ed0")
+	)
+	(fp_line
+		(start 1.5 1.2)
+		(end 1.5 -1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d059532-346f-44db-afc5-40aa06cb5b32")
+	)
+	(fp_arc
+		(start -1.2 3)
+		(mid -1.15 3.05)
+		(end -1.2 3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "42ca7d2b-2992-42dc-aa6b-b1423da438a0")
+	)
+	(fp_arc
+		(start -1.2 3.1)
+		(mid -1.25 3.05)
+		(end -1.2 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb3a9001-6c6b-4f34-aee7-d5d448c3694e")
+	)
+	(fp_line
+		(start -2.5 -3.667)
+		(end 2.5 -3.667)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c3fe211b-8701-4d07-baca-0521f4598984")
+	)
+	(fp_line
+		(start -2.5 4.1)
+		(end -2.5 -3.667)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9c3c49cc-7b46-4ef9-bc4a-22a4be8ed953")
+	)
+	(fp_line
+		(start 2.5 -3.667)
+		(end 2.5 4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0b93f310-6137-4dd8-8d41-edc29c731b97")
+	)
+	(fp_line
+		(start 2.5 4.1)
+		(end -2.5 4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "82fdd0dd-7cab-4aaf-b56e-c70d5e1c7bba")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "272c57df-cb22-44d6-af99-23dfcbc90e61")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "761083b8-6192-4bb8-bec7-50eb5118760f")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "be96273a-8252-40b2-a3be-135f344a4826")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da6bbdff-0a7f-4295-97fe-e9e9d495d5f5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.217 0)
+		(layer "F.Fab")
+		(uuid "2455901f-f79d-41c7-9e4e-0397c8b44549")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.975 2.159)
+		(size 0.406 1.016)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "89d64740-193b-4dc9-8caa-be8323518d68")
+	)
+	(pad "2" smd rect
+		(at -0.325 2.159)
+		(size 0.406 1.016)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0dbaaf87-752a-4a7b-a174-9650a4d9ea22")
+	)
+	(pad "3" smd rect
+		(at 0.325 2.159)
+		(size 0.406 1.016)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "41a57a64-7ffa-4734-8976-19cf17288700")
+	)
+	(pad "4" smd rect
+		(at 0.975 2.159)
+		(size 0.406 1.016)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "63bbc489-4ae8-45ed-b45f-6804d5a92a34")
+	)
+	(pad "5" smd rect
+		(at 0.975 -2.159)
+		(size 0.406 1.016)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3639c63a-441d-4636-a4d5-d1dedae71c38")
+	)
+	(pad "6" smd rect
+		(at 0.325 -2.159)
+		(size 0.406 1.016)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1f283771-dd06-4391-9dd0-6ab1520ce3bc")
+	)
+	(pad "7" smd rect
+		(at -0.325 -2.159)
+		(size 0.406 1.016)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cb0affd3-8f50-4ee6-a944-3878bbd10900")
+	)
+	(pad "8" smd rect
+		(at -0.975 -2.159)
+		(size 0.406 1.016)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0a7016c1-9a88-4fa7-98ff-f75a59fa06aa")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_OWNLIB_DIR}/3d-models/MORNTA2502AT5.stp"
+		(offset
+			(xyz 0 0.009999999626 0.6299999858)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
