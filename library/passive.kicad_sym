@@ -4038,7 +4038,7 @@
 		(symbol "R_Network_04_YC164_3_0"
 			(pin passive line
 				(at 0 3.81 270)
-				(length 2.54)
+				(length 1.27)
 				(name "R3.2"
 					(effects
 						(font
@@ -4078,7 +4078,7 @@
 		(symbol "R_Network_04_YC164_4_0"
 			(pin passive line
 				(at 0 3.81 270)
-				(length 2.54)
+				(length 1.27)
 				(name "R4.2"
 					(effects
 						(font
@@ -4096,7 +4096,7 @@
 			)
 			(pin passive line
 				(at 0 -3.81 90)
-				(length 2.54)
+				(length 1.27)
 				(name "R4.1"
 					(effects
 						(font
@@ -4268,7 +4268,7 @@
 		(symbol "R_Network_08_YC248_3_0"
 			(pin passive line
 				(at 0 3.81 270)
-				(length 2.54)
+				(length 1.27)
 				(name "R3.2"
 					(effects
 						(font
@@ -4308,7 +4308,7 @@
 		(symbol "R_Network_08_YC248_4_0"
 			(pin passive line
 				(at 0 3.81 270)
-				(length 2.54)
+				(length 1.27)
 				(name "R4.2"
 					(effects
 						(font
@@ -4326,7 +4326,7 @@
 			)
 			(pin passive line
 				(at 0 -3.81 90)
-				(length 2.54)
+				(length 1.27)
 				(name "R4.1"
 					(effects
 						(font
