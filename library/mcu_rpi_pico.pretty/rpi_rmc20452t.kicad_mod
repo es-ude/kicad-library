@@ -105,14 +105,14 @@
 		(uuid "634ae885-95cd-493c-892e-2bce6b136262")
 	)
 	(fp_text user "REF**"
-		(at 5.5 9.5 0)
+		(at 9.5 8.5 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "4c64868c-9dbd-4154-becc-c57286c60449")
 		(effects
 			(font
-				(size 0.8 0.5)
-				(thickness 0.125)
+				(size 0.8 0.8)
+				(thickness 0.15)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -135,11 +135,11 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "0dd2ae6e-04c0-4959-8c5a-80d86881646d")
+		(uuid "93ef747b-80fa-4fee-b7f7-fc45d0b30003")
 		(effects
 			(font
-				(size 0.8 0.5)
-				(thickness 0.01)
+				(size 0.8 0.8)
+				(thickness 0.15)
 				(bold yes)
 			)
 		)
@@ -374,6 +374,38 @@
 		(clearance 0)
 		(thermal_bridge_angle 45)
 		(uuid "0d318230-a0a1-470b-a2f4-9cf7cce85664")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu")
+		(uuid "4b7792ad-4438-447c-a522-d1986dd3ed4a")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -8 -3) (xy -8 -8.5) (xy 7.5 -8.5) (xy 7.5 -3)
+			)
+		)
 	)
 	(embedded_fonts no)
 	(model "../3d_models/rpi_rmc20452t.step"

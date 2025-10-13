@@ -7234,7 +7234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Raspberry Pi Radio Module 2"
+		(property "Datasheet" "https://pip-assets.raspberrypi.com/categories/1216-raspberry-pi-radio-module-2/documents/RP-008943-DS-4-Radio%20Module%202%20Datasheet.pdf?disposition=inline"
 			(at 0.254 -37.846 0)
 			(effects
 				(font
@@ -7243,7 +7243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "https://pip-assets.raspberrypi.com/categories/1216-raspberry-pi-radio-module-2/documents/RP-008943-DS-4-Radio%20Module%202%20Datasheet.pdf?disposition=inline"
+		(property "Description" "Raspberry Pi Radio Module 2"
 			(at -0.254 -35.814 0)
 			(effects
 				(font
@@ -7532,26 +7532,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -13.97 -27.94 0)
-				(length 2.54)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -13.97 -27.94 0)
+				(at -13.97 -25.4 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -7562,6 +7543,25 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -13.97 -26.67 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
 					(effects
 						(font
 							(size 1.27 1.27)
