@@ -6350,6 +6350,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "PMOD_MALE_1_1"
 			(rectangle
 				(start -7.62 0)
@@ -8195,7 +8204,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal"
 			(at 0 -26.924 0)
 			(effects
 				(font
@@ -8215,6 +8224,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_*"
 			(at 0 0 0)
 			(effects
 				(font
