@@ -3716,7 +3716,7 @@
 				)
 			)
 		)
-		(property "Value" "AD8881"
+		(property "Value" "ADS8881"
 			(at 10.16 -8.89 0)
 			(effects
 				(font
