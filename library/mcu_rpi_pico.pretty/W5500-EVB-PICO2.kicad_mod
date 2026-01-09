@@ -185,14 +185,14 @@
 		(at -7 -39)
 		(size 2.1 2.1)
 		(drill 2.1)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "2980d5cc-c047-4062-b76c-8406f7c9bf2f")
 	)
 	(pad "" np_thru_hole circle
 		(at 7 -39)
 		(size 2.1 2.1)
 		(drill 2.1)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "a6b9c026-3f59-4fe9-b8da-6849fdbeb023")
 	)
 	(pad "1" smd rect
@@ -207,7 +207,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "55a7de58-447a-4c22-815a-711e2c9645d4")
 	)
 	(pad "2" smd rect
@@ -222,7 +222,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "8d546837-2e63-4f86-95c7-d8fcce928474")
 	)
 	(pad "3" smd rect
@@ -237,7 +237,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "f9fb64b6-52d7-483f-8513-44f5ec492de3")
 	)
 	(pad "4" smd rect
@@ -252,7 +252,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "f774c95d-1627-4749-b99c-a94f40cbc6d5")
 	)
 	(pad "5" smd rect
@@ -267,7 +267,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "561fe5e4-f752-4b9b-ac7f-f5ffd50970ac")
 	)
 	(pad "6" smd rect
@@ -282,7 +282,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "5612a019-dda6-4fcd-a325-fa0df4d18d6f")
 	)
 	(pad "7" smd rect
@@ -297,7 +297,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "b8656801-848f-4cea-ab53-60f6b7a37db7")
 	)
 	(pad "8" smd rect
@@ -312,7 +312,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "6ae5d582-dde0-4cc2-8c2f-a8489b2c0bed")
 	)
 	(pad "9" smd rect
@@ -327,7 +327,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "bc517a96-3d56-4e64-80db-2b065160f051")
 	)
 	(pad "10" smd rect
@@ -342,7 +342,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "42c235f0-789f-4b2f-822f-d799f857f8ef")
 	)
 	(pad "11" smd rect
@@ -357,7 +357,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "29ec719d-6e5f-4362-a779-1d0bfeb95dbd")
 	)
 	(pad "12" smd rect
@@ -372,7 +372,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "651d85c6-3c66-4a56-ac71-81da586823f3")
 	)
 	(pad "13" smd rect
@@ -387,7 +387,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "dbbc1701-e9b8-40b0-96dd-d5d9f9f1dd80")
 	)
 	(pad "14" smd rect
@@ -402,7 +402,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "38479716-cdff-40db-9759-ae5f09ea49ca")
 	)
 	(pad "15" smd rect
@@ -417,7 +417,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "defcbe14-a8d6-412f-96be-a40459b05b62")
 	)
 	(pad "16" smd rect
@@ -432,7 +432,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "4c1faa59-ce8c-4c66-8789-2275fa3da091")
 	)
 	(pad "17" smd rect
@@ -447,7 +447,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "6854f7f6-fdbe-486d-af2f-460a82e32417")
 	)
 	(pad "18" smd rect
@@ -462,7 +462,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "92592c4e-f947-4ed2-8bc4-f9bd6dda7869")
 	)
 	(pad "19" smd rect
@@ -477,7 +477,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "8ecaab19-70c5-4109-85d4-8f46afa49f5f")
 	)
 	(pad "20" smd rect
@@ -492,7 +492,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "864b2d03-76b4-4e33-a374-be55c9a1a0ab")
 	)
 	(pad "21" thru_hole circle
@@ -501,7 +501,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "86d67e35-3d36-48e7-9f71-58a05189c410")
 	)
 	(pad "21" smd rect
@@ -516,7 +516,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "ec23a2a4-1665-48ea-8403-ded3a9ff667f")
 	)
 	(pad "22" smd rect
@@ -531,7 +531,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "17fbe1a2-55a6-47ba-a51c-d7659a65b6d5")
 	)
 	(pad "23" smd rect
@@ -546,7 +546,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "0a861fdc-8b17-4820-9ace-f49859734a13")
 	)
 	(pad "24" smd rect
@@ -561,7 +561,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "a60f8716-c778-4c0d-b55e-82e2c572e701")
 	)
 	(pad "25" smd rect
@@ -576,7 +576,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "65a667b1-7ecb-45f9-840f-2be7bfe4d5dc")
 	)
 	(pad "26" smd rect
@@ -591,7 +591,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "fc9824ea-0d3d-4c21-805c-4fa11e73b1e5")
 	)
 	(pad "27" smd rect
@@ -606,7 +606,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "70ecb880-8283-4ef7-aa23-674da7b3e384")
 	)
 	(pad "28" smd rect
@@ -621,7 +621,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "1c7a38e7-207b-4f37-b492-43e0e512116e")
 	)
 	(pad "29" smd rect
@@ -636,7 +636,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "61e7cedd-0a2d-4e89-ae29-8d43cc7ceb4b")
 	)
 	(pad "30" smd rect
@@ -651,7 +651,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "351507db-bfd2-49cc-a46f-434653671143")
 	)
 	(pad "31" smd rect
@@ -666,7 +666,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "7d4cd9de-d8ed-4a92-95ec-c437caf31bce")
 	)
 	(pad "32" smd rect
@@ -681,7 +681,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "639c8342-a2da-483a-b760-399ddf3fbcd5")
 	)
 	(pad "33" smd rect
@@ -696,7 +696,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "ea0c625f-7aac-4217-b204-00e7c8dccd50")
 	)
 	(pad "34" smd rect
@@ -711,7 +711,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "bf18d9fa-58d8-41bc-932e-a01689d5fe20")
 	)
 	(pad "35" smd rect
@@ -726,7 +726,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "9ad44db1-0ec2-411f-9f2f-7821aee2bd65")
 	)
 	(pad "36" smd rect
@@ -741,7 +741,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "d964f980-0e9a-425a-86e6-64c8ee7759e7")
 	)
 	(pad "37" smd rect
@@ -756,7 +756,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "a7cc6770-daa2-43fa-9a9f-9989561d93f4")
 	)
 	(pad "38" smd rect
@@ -771,7 +771,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "2a76d716-a883-4015-aa64-a421c1a0354b")
 	)
 	(pad "39" smd rect
@@ -786,7 +786,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "5e6d7636-c83a-48ac-91d1-b9ecdf0c290a")
 	)
 	(pad "40" smd rect
@@ -801,7 +801,7 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "85d0ad48-7bc6-4374-a7e6-e29722b21e54")
 	)
 	(pad "42" thru_hole circle
@@ -810,7 +810,7 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "97cdcfb0-41e2-42db-9d85-121f2885e5cb")
 	)
 	(pad "43" thru_hole circle
@@ -819,7 +819,7 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(uuid "67417179-0f65-4437-8279-794cf9e7b37b")
 	)
 	(embedded_fonts no)

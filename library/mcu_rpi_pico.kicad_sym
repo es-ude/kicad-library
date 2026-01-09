@@ -7225,7 +7225,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom_library:RPi-Radio-Module"
+		(property "Footprint" "mcu_rpi_pico:RPi-Radio-Module"
 			(at 0 -39.878 0)
 			(effects
 				(font
@@ -8104,7 +8104,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "custom_library:W5500-EVB-PICO"
+		(property "Footprint" "mcu_rpi_pico:W5500-EVB-PICO"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -9076,7 +9076,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "custom_library:W5500-EVB-PICO2"
+		(property "Footprint" "mcu_rpi_pico:W5500-EVB-PICO2"
 			(at 0 7.62 0)
 			(effects
 				(font
