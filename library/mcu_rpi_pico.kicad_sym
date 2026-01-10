@@ -9812,24 +9812,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 20.32 -20.32 180)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 		)
 		(symbol "W5500-EVB-PICO2_1_0"
 			(pin input clock
@@ -9868,7 +9850,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 20.32 -20.32 180)
 				(length 5.08)
 				(hide yes)
@@ -9887,7 +9869,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 20.32 -20.32 180)
 				(length 5.08)
 				(hide yes)
@@ -9906,7 +9888,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 20.32 -20.32 180)
 				(length 5.08)
 				(hide yes)
@@ -9925,7 +9907,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 20.32 -20.32 180)
 				(length 5.08)
 				(hide yes)
@@ -9944,7 +9926,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 20.32 -20.32 180)
 				(length 5.08)
 				(hide yes)
@@ -9963,7 +9945,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 20.32 -20.32 180)
 				(length 5.08)
 				(hide yes)
@@ -9982,7 +9964,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 20.32 -20.32 180)
 				(length 5.08)
 				(hide yes)
@@ -10001,7 +9983,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 20.32 -20.32 180)
 				(length 5.08)
 				(hide yes)
@@ -10013,6 +9995,26 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "W5500-EVB-PICO2_1_1"
+			(pin power_in line
+				(at 20.32 -20.32 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "13"
 					(effects
 						(font
 							(size 1.016 1.016)
