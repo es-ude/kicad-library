@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "AD4523-1"
+	(symbol "ADA4523-1"
 		(pin_names
 			(offset 0.127)
 		)
@@ -18,7 +18,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AD4523-1"
+		(property "Value" "ADA4523-1"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -80,7 +80,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "AD4523-1_1_1"
+		(symbol "ADA4523-1_1_1"
 			(polyline
 				(pts
 					(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -148,7 +148,7 @@
 				)
 			)
 		)
-		(symbol "AD4523-1_2_1"
+		(symbol "ADA4523-1_2_1"
 			(pin input line
 				(at -7.62 -7.62 90)
 				(length 3.81)
