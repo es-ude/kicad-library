@@ -5762,7 +5762,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
@@ -5781,7 +5781,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_library:Adafruit4440_OLED"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5790,7 +5790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.adafruit.com/product/4440?srsltid=AfmBOoqGbkyezh7NH5PH1M494C_JA3Tp_JRUw_MfLnBOqJxh2Xm9jJ1_"
 			(at 0 0 0)
 			(effects
 				(font
