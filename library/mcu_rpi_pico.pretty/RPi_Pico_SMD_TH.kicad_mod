@@ -1,7 +1,7 @@
 (footprint "RPi_Pico_SMD_TH"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Through hole straight pin header, 2x20, 2.54mm pitch, double rows")
 	(tags "Through hole pin header THT 2x20 2.54mm double row")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7854f983-ee84-4314-86c0-cae7ee50e912")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -1839,6 +1827,7 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "aadc3df5-0e2d-4f3d-b72e-6f184da74c89")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_OWNLIB_DIR}/3d-models/RPi_Pico_THT.wrl"
 		(offset
 			(xyz 0 0 0)

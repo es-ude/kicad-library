@@ -1,0 +1,249 @@
+(footprint "Adafruit4440_OLED"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Through hole straight socket strip, 1x06, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
+	(tags "Through hole socket strip THT 1x06 2.54mm single row")
+	(property "Reference" "REF**"
+		(at 0 -2.77 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7163023c-a2ae-4ddd-b309-0e1b50910a02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Adafruit4440_OLED"
+		(at 0 15.47 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca53a851-6803-4bdc-b4c8-7330a997b48a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65a61694-195b-4a08-b159-3e9650c34855")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f17dcf2a-1d10-43a4-ae3f-c365fac8a47b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.36 -1.48)
+		(end 0.02 -1.48)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "be19bc3f-e264-4480-b7d8-7b0d2bda64d7")
+	)
+	(fp_line
+		(start -1.36 -0.1)
+		(end -1.36 -1.48)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5230af08-2724-45cb-99cc-b1e2f12ba239")
+	)
+	(fp_line
+		(start -1.36 1.17)
+		(end -1.36 13.98)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "01e0e4ce-a58b-4bc5-ac06-f899f9642630")
+	)
+	(fp_line
+		(start -1.36 1.17)
+		(end 1.4 1.17)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5d0cbfac-9d6a-4c67-9f40-f37db7f3fb99")
+	)
+	(fp_line
+		(start -1.36 13.98)
+		(end 1.4 13.98)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd77803e-fe96-42cd-a59e-40a301713b3e")
+	)
+	(fp_line
+		(start 1.4 1.17)
+		(end 1.4 13.98)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b4ee2968-ab09-4457-9972-5e51544cc7da")
+	)
+	(fp_rect
+		(start -1.75 -1.87)
+		(end 1.79 14.37)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2a2f6c8b-712c-4795-98b8-7df93bbead3b")
+	)
+	(fp_line
+		(start -1.25 -0.735)
+		(end -0.615 -1.37)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "897e43d4-f7b1-44e4-be88-8b100cafabea")
+	)
+	(fp_line
+		(start -1.25 13.87)
+		(end -1.25 -0.735)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "183e2c42-316c-4dea-8324-0c9bf2676b28")
+	)
+	(fp_line
+		(start -0.615 -1.37)
+		(end 1.29 -1.37)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "40ea7b8b-1248-4851-8d45-33d7ad51b720")
+	)
+	(fp_line
+		(start 1.29 -1.37)
+		(end 1.29 13.87)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bcca5f2e-0369-4693-a514-d4dfb8308593")
+	)
+	(fp_line
+		(start 1.29 13.87)
+		(end -1.25 13.87)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0424f93d-f951-4e30-8a60-c8f7eb1a4f4b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.02 6.25 90)
+		(layer "F.Fab")
+		(uuid "d572c3b9-19be-4c9b-8474-2fbaf54c7690")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0.02 -0.1)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6bbf739b-1a6e-43a7-aa55-43a5501851d9")
+	)
+	(pad "2" thru_hole circle
+		(at 0.02 2.44)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b5f70f3e-b24d-48e4-9ead-2b8b4174591e")
+	)
+	(pad "3" thru_hole circle
+		(at 0.02 4.98)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "13144743-004b-4025-ac3a-31a2a9bf3606")
+	)
+	(pad "4" thru_hole circle
+		(at 0.02 7.52)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7561a414-093a-4ae0-bf30-a46c45c52237")
+	)
+	(pad "5" thru_hole circle
+		(at 0.02 10.06)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a5c9b510-4702-4cf9-a16c-29c735277f2d")
+	)
+	(pad "6" thru_hole circle
+		(at 0.02 12.6)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a1e79b56-c4d3-4c24-8a31-ce038210933e")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_OWNLIB_DIR}/3d-models/4440 0.91 OLED I2C Display.step"
+		(offset
+			(xyz -2.54 -22.8 4.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 -0 -90)
+		)
+	)
+)

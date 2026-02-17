@@ -1492,26 +1492,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 7.62 -7.62 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
-				(at 7.62 -10.16 180)
+				(at 7.62 -7.62 180)
 				(length 2.54)
 				(name "SDATA"
 					(effects
@@ -1521,6 +1503,24 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -10.16 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2482,7 +2482,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "mcu_pico_rp2040:RPi_Pico_SMD_TH_wUSB_TP"
+		(property "Footprint" "mcu_rpi_pico:RPi_Pico_SMD_TH_wUSB_TP"
 			(at -0.254 -47.498 0)
 			(effects
 				(font
@@ -2513,6 +2513,15 @@
 			)
 		)
 		(property "ki_keywords" "MCU, RP2040"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "mcu_rpi_pico:RPi_Pico_SMD_THT_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2931,26 +2940,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -36.83 90)
-				(length 2.54)
-				(name "USB_GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "TP1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
-				(at 2.54 -36.83 90)
+				(at 0 -36.83 90)
 				(length 2.54)
 				(name "USB_DN"
 					(effects

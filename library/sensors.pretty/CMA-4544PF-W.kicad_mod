@@ -1,0 +1,139 @@
+(footprint "CMA-4544PF-W"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.635215 -5.717015 0)
+		(layer "F.SilkS")
+		(uuid "9ebda733-baa2-4bcd-9eac-b02510b1f9e5")
+		(effects
+			(font
+				(size 1.000354 1.000354)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 6.35634 5.720735 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b65ec9b3-6920-451e-b575-1aea2437ccbc")
+		(effects
+			(font
+				(size 1.001 1.001)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5d1d426-8303-4e7d-b4c7-28af6af39128")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "153095ea-11b4-44ab-bb1e-49b6944e0942")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 4.85 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "630932a9-74ac-4ae1-bdcf-974023fedaff")
+	)
+	(fp_circle
+		(center 5.443 1.741)
+		(end 5.543 1.741)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f786dcc6-e61d-4b41-b509-5bc7ceb86978")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.1 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4e7ad5ac-1618-496e-8108-715041ab8b2f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.85 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e2ed58d4-c6f8-4458-a851-38a601f51a8e")
+	)
+	(fp_circle
+		(center 5.443 1.741)
+		(end 5.543 1.741)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "328547ef-e301-42f3-9195-ae1a301e9217")
+	)
+	(pad "1" thru_hole rect
+		(at 2 1.27)
+		(size 1.378 1.378)
+		(drill 0.87)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "9675cc4a-b658-41d9-b767-4875139291ec")
+	)
+	(pad "2" thru_hole circle
+		(at 2 -1.27)
+		(size 1.378 1.378)
+		(drill 0.87)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "827feb8a-be53-4260-b92e-b977f6d8e46f")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_OWNLIB_DIR}/3d-models/CMA-4544PF-W.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

@@ -1,7 +1,7 @@
 (footprint "RPi_Pico_SMD_TH_wUSB_TP"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Through hole straight pin header, 2x20, 2.54mm pitch, double rows")
 	(tags "Through hole pin header THT 2x20 2.54mm double row")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7854f983-ee84-4314-86c0-cae7ee50e912")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -535,13 +523,13 @@
 		(uuid "54ed3ee1-891b-418e-ab9c-6a18747d7388")
 	)
 	(fp_rect
-		(start -1.5 -25.5)
-		(end 0.5 -21)
+		(start -1 -25.5)
+		(end 1 -22.75)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "d8c19ae6-36fb-48f7-a07c-6ddbf6518cf3")
 	)
@@ -1850,42 +1838,25 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "aadc3df5-0e2d-4f3d-b72e-6f184da74c89")
 	)
-	(pad "TP1" thru_hole oval
-		(at -0.5 -20.83 180)
-		(size 1.7 1.7)
-		(drill 1.02)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "e6e3ee05-dbb3-48e8-ad4c-9c5876907bc5")
-	)
-	(pad "TP1" smd rect
-		(at -0.5 -20.83 90)
-		(size 3.5 1.7)
-		(drill
-			(offset -0.9 0)
-		)
-		(layers "B.Cu" "B.Mask")
-		(uuid "050a4b05-7589-4090-9665-52a9519c3822")
-	)
-	(pad "TP2" thru_hole oval
-		(at 0.5 -24.13 180)
-		(size 1.7 1.7)
-		(drill 1.02)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "cf97b978-2b16-4d8f-886a-6499471b6415")
-	)
 	(pad "TP2" smd rect
 		(at 0.5 -24.13 180)
-		(size 3.5 1.7)
+		(size 2.5 1.7)
 		(drill
 			(offset -0.9 0)
 		)
 		(layers "B.Cu" "B.Mask")
 		(uuid "85b2c1c7-7fb9-4f79-bf19-3b88708e9c8c")
 	)
+	(pad "TP2" thru_hole oval
+		(at 1 -24.13 180)
+		(size 1.7 1.7)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cf97b978-2b16-4d8f-886a-6499471b6415")
+	)
 	(pad "TP3" thru_hole oval
-		(at -1.5 -24.13)
+		(at -1 -24.13)
 		(size 1.7 1.7)
 		(drill 1.02)
 		(layers "*.Cu" "*.Mask")
@@ -1893,14 +1864,15 @@
 		(uuid "0a83e70d-cfb0-4454-8b7d-9021db572231")
 	)
 	(pad "TP3" smd rect
-		(at -1.5 -24.13)
-		(size 3.5 1.7)
+		(at -0.5 -24.13)
+		(size 2.5 1.7)
 		(drill
 			(offset -0.9 0)
 		)
 		(layers "B.Cu" "B.Mask")
 		(uuid "07f877d1-e764-4887-8816-eedcea9174cd")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_OWNLIB_DIR}/3d-models/RPi_Pico_THT.wrl"
 		(offset
 			(xyz 0 0 0)
