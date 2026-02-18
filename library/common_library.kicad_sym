@@ -5910,10 +5910,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -5.08 -5.08 0)
 				(length 3.81)
-				(name "3V3"
+				(name "3V0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5928,7 +5928,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -5.08 -7.62 0)
 				(length 3.81)
 				(name "VIN"
