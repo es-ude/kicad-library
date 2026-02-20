@@ -523,8 +523,8 @@
 		(uuid "54ed3ee1-891b-418e-ab9c-6a18747d7388")
 	)
 	(fp_rect
-		(start -1 -25.5)
-		(end 1 -22.75)
+		(start -1.25 -25.5)
+		(end 1.25 -22.75)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -1086,7 +1086,7 @@
 		)
 	)
 	(fp_text user "Copper Keepouts shown on Dwgs layer"
-		(at 0.1 -30.2 0)
+		(at 0.1 -29.75 0)
 		(layer "Cmts.User")
 		(uuid "66ca01b3-51ff-4294-9b77-4492e98f6aec")
 		(effects
@@ -1104,6 +1104,120 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "74b72e9a-d518-4cbc-bde2-f35885950377")
+		(pts
+			(xy 1.25 -24.125) (xy 8.89 -24.125)
+		)
+		(height -2.875)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "7.64"
+			(at 5.07 -28.1 0)
+			(layer "Cmts.User")
+			(uuid "74b72e9a-d518-4cbc-bde2-f35885950377")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "92a4c797-9cc2-4094-b926-a681e88c0786")
+		(pts
+			(xy -1.25 -23.98) (xy 1.25 -23.98)
+		)
+		(height -3.02)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "2.5"
+			(at 0 -28.1 0)
+			(layer "Cmts.User")
+			(uuid "92a4c797-9cc2-4094-b926-a681e88c0786")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "9d32e0a7-0a19-4e38-9afe-1c40caf79e2e")
+		(pts
+			(xy -1.25 -24.13) (xy -8.89 -24.13)
+		)
+		(height -2.875)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "7.64"
+			(at -5.07 -28.105 0)
+			(layer "Cmts.User")
+			(uuid "9d32e0a7-0a19-4e38-9afe-1c40caf79e2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
 			)
 		)
 	)
@@ -1839,7 +1953,7 @@
 		(uuid "aadc3df5-0e2d-4f3d-b72e-6f184da74c89")
 	)
 	(pad "TP2" smd rect
-		(at 0.5 -24.13 180)
+		(at 0.75 -24.13 180)
 		(size 2.5 1.7)
 		(drill
 			(offset -0.9 0)
@@ -1848,7 +1962,7 @@
 		(uuid "85b2c1c7-7fb9-4f79-bf19-3b88708e9c8c")
 	)
 	(pad "TP2" thru_hole oval
-		(at 1 -24.13 180)
+		(at 1.25 -24.13 180)
 		(size 1.7 1.7)
 		(drill 1.02)
 		(layers "*.Cu" "*.Mask")
@@ -1856,7 +1970,7 @@
 		(uuid "cf97b978-2b16-4d8f-886a-6499471b6415")
 	)
 	(pad "TP3" thru_hole oval
-		(at -1 -24.13)
+		(at -1.25 -24.13)
 		(size 1.7 1.7)
 		(drill 1.02)
 		(layers "*.Cu" "*.Mask")
@@ -1864,7 +1978,7 @@
 		(uuid "0a83e70d-cfb0-4454-8b7d-9021db572231")
 	)
 	(pad "TP3" smd rect
-		(at -0.5 -24.13)
+		(at -0.75 -24.13)
 		(size 2.5 1.7)
 		(drill
 			(offset -0.9 0)

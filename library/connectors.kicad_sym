@@ -6778,25 +6778,26 @@
 		(embedded_fonts no)
 	)
 	(symbol "Tactile Button"
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "S"
-			(at 0 -3.81 0)
+			(at -1.27 -4.826 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify top)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "BTN"
+			(at 1.27 -4.826 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "connectors:TACTILE-SWITCH"
