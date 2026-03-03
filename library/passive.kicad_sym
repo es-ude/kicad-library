@@ -4832,7 +4832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/3386.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4842,6 +4842,24 @@
 			)
 		)
 		(property "Description" "Potentiometer"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device" "Bourns 3386F"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Num" "https://www.digikey.de/de/products/detail/bourns-inc/3386F-1-103LF/1088491"
 			(at 0 0 0)
 			(effects
 				(font
