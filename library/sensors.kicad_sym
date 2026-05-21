@@ -2477,29 +2477,27 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "PAC1954x-x4MX"
+	(symbol "PAC1954T-E4Mx"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U7"
-			(at -4.826 21.59 0)
+			(at 0 21.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "PAC1954x-x4MX"
-			(at -7.62 19.05 0)
+		(property "Value" "PAC1954T-E4Mx"
+			(at 0 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.1x1.1mm"
+		(property "Footprint" "custom_library:QFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm"
 			(at -0.508 -38.862 0)
 			(effects
 				(font
@@ -2535,16 +2533,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "VQFN*1EP*3x3mm*P0.5mm*EP1.1x1.1mm*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "PAC1954x-x4MX_0_0"
+		(symbol "PAC1954T-E4Mx_0_0"
 			(pin input line
 				(at -12.7 13.97 0)
 				(length 2.54)
@@ -2857,7 +2846,7 @@
 				)
 			)
 		)
-		(symbol "PAC1954x-x4MX_0_1"
+		(symbol "PAC1954T-E4Mx_0_1"
 			(rectangle
 				(start -10.16 17.78)
 				(end 10.16 -20.32)
