@@ -1250,6 +1250,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "connectors:BNC-MALE-H*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "BNC-FEMALE-H_1_0"
 			(polyline
 				(pts
