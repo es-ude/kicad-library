@@ -3918,6 +3918,8 @@
 					(type background)
 				)
 			)
+		)
+		(symbol "VEML7700_1_0"
 			(pin power_in line
 				(at -12.7 7.62 0)
 				(length 5.08)
@@ -3928,7 +3930,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "3"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3940,24 +3942,6 @@
 				(at -12.7 2.54 0)
 				(length 5.08)
 				(name "SCL"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -12.7 0 0)
-				(length 5.08)
-				(name "SDA"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3982,7 +3966,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "2"
 					(effects
 						(font
 							(size 1.016 1.016)
