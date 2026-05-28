@@ -1,7 +1,7 @@
 (footprint "SHT4X"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Consumer SHT4x Digital and Analog")
 	(property "Reference" "REF**"
@@ -22,18 +22,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1fb94553-5154-420d-87c2-5207537f4c6a")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -90,7 +78,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "0c97ed70-5481-4b70-a8ba-ec91326bcc44")
 	)
@@ -141,7 +129,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "5835d95d-541f-4ba3-8fc3-fbf5ad4a6ff7")
 	)
@@ -152,34 +140,42 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "0b4b7d39-861a-4180-b05a-c6b8cef597fb")
 	)
 	(pad "1" smd rect
 		(at -0.7 -0.4)
 		(size 0.5 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dffeb8d8-2f6c-4f23-839f-82072ba23629")
 	)
 	(pad "2" smd rect
 		(at -0.7 0.4)
 		(size 0.5 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9ac46232-1014-4d3a-8340-80f2885ea49d")
 	)
 	(pad "3" smd rect
 		(at 0.7 0.4)
 		(size 0.5 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "09da1a30-a783-4f61-bc92-48f719c85936")
 	)
 	(pad "4" smd rect
 		(at 0.7 -0.4)
 		(size 0.5 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3e47048f-6f00-4f3b-8456-398c7b0777e0")
 	)
+	(pad "5" smd roundrect
+		(at 0 0 90)
+		(size 1.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "f0c700b0-c9ad-4ea8-a3c4-56ad6ac25153")
+	)
+	(embedded_fonts no)
 	(model "${KICAD8_OWNLIB_DIR}/3d-models/SHT4x.STEP"
 		(offset
 			(xyz 0 0 0)
