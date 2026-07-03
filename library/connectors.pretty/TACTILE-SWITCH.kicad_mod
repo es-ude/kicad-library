@@ -1,14 +1,14 @@
 (footprint "TACTILE-SWITCH"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "S2"
 		(at 3 1.5 270)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "29403572-0eb1-47b4-858b-1635662c27af")
+		(uuid "357dafbc-845e-481d-930b-d9d87d5c3145")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21,7 +21,7 @@
 		(at -3.25 0 0)
 		(unlocked yes)
 		(layer "F.SilkS" knockout)
-		(uuid "ee2ceb56-4ca9-4b41-93f1-90b21c7c6f53")
+		(uuid "5f4aba2d-98f1-4cc5-8e88-2cfe5a53b516")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35,7 +35,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d3262487-fcb1-4310-89ef-d2451dae7c3d")
+		(uuid "7a38d532-08c2-485b-ab37-7e38baeac956")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48,7 +48,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f4a1db88-25f1-40a5-82e1-aa59b60e7e79")
+		(uuid "f5f61a36-f94e-41c3-8710-793ffab3733f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,6 +56,7 @@
 			)
 		)
 	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.7 -0.5)
 		(end -2.7 0.5)
@@ -64,7 +65,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f5533f1a-42d8-41ea-9b56-399b5b00cac8")
+		(uuid "14005bf6-1eaa-4364-8fc4-69ef14d9191e")
 	)
 	(fp_line
 		(start -1.7 -1.8)
@@ -74,7 +75,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2c810fe9-8b46-4283-b13c-41673aa77886")
+		(uuid "4660ae7e-9e8d-460d-8b0d-81aa311d43ec")
 	)
 	(fp_line
 		(start -1.7 1.8)
@@ -84,7 +85,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "eb33d632-67d3-471f-b180-aa0b7162bba5")
+		(uuid "b741c4a2-52c2-48d9-bc94-61eca557ff66")
 	)
 	(fp_line
 		(start 2.7 -0.5)
@@ -94,7 +95,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "cfbcc56f-59d3-4f52-9639-1b68ea00bff3")
+		(uuid "716def40-a44a-4436-829d-92cffd276efc")
 	)
 	(fp_rect
 		(start -3 -2)
@@ -105,7 +106,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "16156fd8-5c7b-4389-8d02-73fb6c263e41")
+		(uuid "df3f2055-adc0-4de5-878a-92dab420f6bb")
 	)
 	(pad "1" smd rect
 		(at -2.25 1.075)
@@ -113,7 +114,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
-		(uuid "d14a51a0-8f87-4100-a399-563828df7c03")
+		(uuid "0b8707f5-6706-4f0e-8791-a193c865aac4")
 	)
 	(pad "2" smd rect
 		(at 2.25 1.075)
@@ -121,7 +122,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
-		(uuid "d65f3a9f-98fd-4af2-a609-2299408f653c")
+		(uuid "c39e0cd4-721b-4e4e-bf02-4953041afd39")
 	)
 	(pad "3" smd rect
 		(at -2.25 -1.075)
@@ -129,7 +130,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
-		(uuid "84a7886c-6c3c-4ec8-a299-e1c55e6ed453")
+		(uuid "cb410d10-65bc-467b-b05c-b9cdd955cbb9")
 	)
 	(pad "4" smd rect
 		(at 2.25 -1.075)
@@ -137,10 +138,10 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
-		(uuid "716a54c0-5895-4009-bf91-e8ccd2e7fa2c")
+		(uuid "500dd053-e683-45be-9849-3ef735cd59f5")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_EVQP2.step"
+	(model "${KICAD10_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_EVQP2_MiddlePushTravel_H2.5mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
