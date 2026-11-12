@@ -667,7 +667,7 @@
 					)
 				)
 			)
-			(text "Extra"
+			(text "Extra/\nCFG 6"
 				(at -19.05 35.56 900)
 				(effects
 					(font
@@ -789,7 +789,7 @@
 					)
 				)
 			)
-			(text "V PER"
+			(text "V MCU"
 				(at -6.35 -30.48 900)
 				(effects
 					(font
@@ -845,7 +845,7 @@
 					)
 				)
 			)
-			(text "MCU IO\nto\nApp\nBoard"
+			(text "MCU IO\nto App\n& Test\nBoard"
 				(at 1.016 -33.02 0)
 				(effects
 					(font
@@ -3730,7 +3730,7 @@
 					)
 				)
 			)
-			(text "Extra"
+			(text "Extra/\nCFG 6"
 				(at -19.05 35.56 900)
 				(effects
 					(font
@@ -3852,7 +3852,7 @@
 					)
 				)
 			)
-			(text "V PER"
+			(text "V MCU"
 				(at -6.35 -30.48 900)
 				(effects
 					(font
@@ -3908,20 +3908,20 @@
 					)
 				)
 			)
-			(text "MCU IO\nto\nApp\nBoard"
-				(at 1.016 -33.02 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-						(thickness 0.1588)
-					)
-				)
-			)
 			(text "GND"
 				(at 1.27 33.02 900)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.1588)
+					)
+				)
+			)
+			(text "MCU IO\nto App\n& Test\nBoard"
+				(at 1.27 -33.02 0)
+				(effects
+					(font
+						(size 1.016 1.016)
 						(thickness 0.1588)
 					)
 				)
