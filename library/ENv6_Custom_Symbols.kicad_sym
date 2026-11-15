@@ -124,14 +124,14 @@
 			)
 			(rectangle
 				(start -22.86 -27.94)
-				(end -20.32 -38.1)
+				(end -7.62 -38.1)
 				(stroke
 					(width 0)
 					(type solid)
 				)
 				(fill
 					(type color)
-					(color 0 255 0 0.2)
+					(color 132 132 132 0.6)
 				)
 			)
 			(rectangle
@@ -166,18 +166,6 @@
 				(fill
 					(type color)
 					(color 0 255 255 0.3019607843)
-				)
-			)
-			(rectangle
-				(start -20.32 -27.94)
-				(end -10.16 -38.1)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type color)
-					(color 132 132 132 0.6)
 				)
 			)
 			(rectangle
@@ -277,30 +265,6 @@
 				)
 			)
 			(rectangle
-				(start -10.16 -27.94)
-				(end -7.62 -33.02)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type color)
-					(color 0 255 255 0.3019607843)
-				)
-			)
-			(rectangle
-				(start -10.16 -33.02)
-				(end -5.08 -38.1)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type color)
-					(color 0 255 0 0.2)
-				)
-			)
-			(rectangle
 				(start -7.62 38.1)
 				(end -5.08 33.02)
 				(stroke
@@ -334,6 +298,18 @@
 				(fill
 					(type color)
 					(color 0 255 255 0.3019607843)
+				)
+			)
+			(rectangle
+				(start -7.62 -33.02)
+				(end -5.08 -38.1)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 255 0 0.2)
 				)
 			)
 			(rectangle
@@ -410,7 +386,7 @@
 			)
 			(rectangle
 				(start -2.54 -27.94)
-				(end 5.08 -38.1)
+				(end 10.16 -38.1)
 				(stroke
 					(width 0)
 					(type solid)
@@ -445,19 +421,7 @@
 				)
 			)
 			(rectangle
-				(start 5.08 -27.94)
-				(end 7.62 -38.1)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type color)
-					(color 0 255 0 0.2)
-				)
-			)
-			(rectangle
-				(start 7.62 -27.94)
+				(start 10.16 -27.94)
 				(end 12.7 -38.1)
 				(stroke
 					(width 0)
@@ -465,7 +429,7 @@
 				)
 				(fill
 					(type color)
-					(color 0 0 255 0.4)
+					(color 0 255 0 0.2)
 				)
 			)
 			(rectangle
@@ -659,15 +623,6 @@
 					)
 				)
 			)
-			(text "GND"
-				(at -21.59 -33.02 900)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.1588)
-					)
-				)
-			)
 			(text "Extra"
 				(at -19.05 35.56 900)
 				(effects
@@ -757,23 +712,6 @@
 					)
 				)
 			)
-			(text "V MCU"
-				(at -8.89 -30.48 900)
-				(effects
-					(font
-						(size 0.6858 0.6858)
-					)
-				)
-			)
-			(text "GND"
-				(at -7.62 -35.56 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.1588)
-					)
-				)
-			)
 			(text "JTAG\nTDI"
 				(at -6.35 35.306 900)
 				(effects
@@ -790,11 +728,20 @@
 					)
 				)
 			)
-			(text "V PER"
+			(text "V_MCU"
 				(at -6.35 -30.48 900)
 				(effects
 					(font
-						(size 0.6858 0.6858)
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(text "GND"
+				(at -6.35 -35.56 900)
+				(effects
+					(font
+						(size 0.9652 0.9652)
+						(thickness 0.1588)
 					)
 				)
 			)
@@ -855,8 +802,8 @@
 					)
 				)
 			)
-			(text "MCU IO\nto App"
-				(at 1.27 -33.02 0)
+			(text "MCU\nto App"
+				(at 4.318 -33.02 0)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -864,16 +811,7 @@
 					)
 				)
 			)
-			(text "GND"
-				(at 6.35 -33.02 900)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.1588)
-					)
-				)
-			)
-			(text "MCU IO\nto\nFPGA IO"
+			(text "MCU \nto\nFPGA"
 				(at 7.62 33.02 0)
 				(effects
 					(font
@@ -882,8 +820,8 @@
 					)
 				)
 			)
-			(text "VSYS\nEX"
-				(at 10.16 -33.02 0)
+			(text "GND"
+				(at 11.43 -33.02 900)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -900,8 +838,8 @@
 					)
 				)
 			)
-			(text "V\nApp"
-				(at 15.24 -33.02 0)
+			(text "VSYS\nEX"
+				(at 15.24 -33.274 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1220,9 +1158,8 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -41.91 90)
+				(at 11.43 -24.13 270)
 				(length 3.81)
-				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -1239,7 +1176,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -41.91 90)
+				(at 11.43 -41.91 90)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1257,9 +1194,8 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -41.91 90)
+				(at 8.89 -24.13 270)
 				(length 3.81)
-				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -1276,9 +1212,8 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -41.91 90)
+				(at 8.89 -41.91 90)
 				(length 3.81)
-				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -1295,9 +1230,8 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -41.91 90)
+				(at 6.35 -24.13 270)
 				(length 3.81)
-				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -1440,6 +1374,24 @@
 				)
 			)
 			(pin passive line
+				(at -3.81 -24.13 270)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at -6.35 -24.13 270)
 				(length 3.81)
 				(name ""
@@ -1458,7 +1410,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -41.91 90)
+				(at -6.35 -41.91 90)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1494,9 +1446,8 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -41.91 90)
+				(at -8.89 -41.91 90)
 				(length 3.81)
-				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -1657,9 +1608,8 @@
 				)
 			)
 			(pin passive line
-				(at -21.59 -41.91 90)
+				(at -21.59 -24.13 270)
 				(length 3.81)
-				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -2381,14 +2331,14 @@
 			)
 			(rectangle
 				(start -22.86 -27.94)
-				(end -20.32 -38.1)
+				(end -7.62 -38.1)
 				(stroke
 					(width 0)
 					(type solid)
 				)
 				(fill
 					(type color)
-					(color 0 255 0 0.2)
+					(color 132 132 132 0.6)
 				)
 			)
 			(rectangle
@@ -2423,18 +2373,6 @@
 				(fill
 					(type color)
 					(color 0 255 255 0.3019607843)
-				)
-			)
-			(rectangle
-				(start -20.32 -27.94)
-				(end -10.16 -38.1)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type color)
-					(color 132 132 132 0.6)
 				)
 			)
 			(rectangle
@@ -2534,30 +2472,6 @@
 				)
 			)
 			(rectangle
-				(start -10.16 -27.94)
-				(end -7.62 -33.02)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type color)
-					(color 0 255 255 0.3019607843)
-				)
-			)
-			(rectangle
-				(start -10.16 -33.02)
-				(end -5.08 -38.1)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type color)
-					(color 0 255 0 0.2)
-				)
-			)
-			(rectangle
 				(start -7.62 38.1)
 				(end -5.08 33.02)
 				(stroke
@@ -2591,6 +2505,18 @@
 				(fill
 					(type color)
 					(color 0 255 255 0.3019607843)
+				)
+			)
+			(rectangle
+				(start -7.62 -33.02)
+				(end -5.08 -38.1)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 255 0 0.2)
 				)
 			)
 			(rectangle
@@ -2667,7 +2593,7 @@
 			)
 			(rectangle
 				(start -2.54 -27.94)
-				(end 5.08 -38.1)
+				(end 10.16 -38.1)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2702,19 +2628,7 @@
 				)
 			)
 			(rectangle
-				(start 5.08 -27.94)
-				(end 7.62 -38.1)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type color)
-					(color 0 255 0 0.2)
-				)
-			)
-			(rectangle
-				(start 7.62 -27.94)
+				(start 10.16 -27.94)
 				(end 12.7 -38.1)
 				(stroke
 					(width 0)
@@ -2722,7 +2636,7 @@
 				)
 				(fill
 					(type color)
-					(color 0 0 255 0.4)
+					(color 0 255 0 0.2)
 				)
 			)
 			(rectangle
@@ -2916,15 +2830,6 @@
 					)
 				)
 			)
-			(text "GND"
-				(at -21.59 -33.02 900)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.1588)
-					)
-				)
-			)
 			(text "Extra/\nCFG 6"
 				(at -19.05 35.56 900)
 				(effects
@@ -2957,7 +2862,7 @@
 					)
 				)
 			)
-			(text "FPGA IO\nto App"
+			(text "FPGA\nto App"
 				(at -15.24 -33.02 0)
 				(effects
 					(font
@@ -3014,23 +2919,6 @@
 					)
 				)
 			)
-			(text "V MCU"
-				(at -8.89 -30.48 900)
-				(effects
-					(font
-						(size 0.6858 0.6858)
-					)
-				)
-			)
-			(text "GND"
-				(at -7.62 -35.56 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.1588)
-					)
-				)
-			)
 			(text "JTAG\nTDI"
 				(at -6.35 35.306 900)
 				(effects
@@ -3047,11 +2935,20 @@
 					)
 				)
 			)
-			(text "V MCU"
+			(text "V_MCU"
 				(at -6.35 -30.48 900)
 				(effects
 					(font
-						(size 0.6858 0.6858)
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(text "GND"
+				(at -6.35 -35.306 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.1588)
 					)
 				)
 			)
@@ -3071,19 +2968,19 @@
 					)
 				)
 			)
-			(text "ADC 2\nDetect"
+			(text "APP\nDTCT"
 				(at -3.81 -30.48 900)
 				(effects
 					(font
-						(size 0.6858 0.6858)
+						(size 0.762 0.762)
 					)
 				)
 			)
-			(text "ADC 1\nDetect"
+			(text "FPGA\nDTCT"
 				(at -3.81 -35.56 900)
 				(effects
 					(font
-						(size 0.6858 0.6858)
+						(size 0.762 0.762)
 					)
 				)
 			)
@@ -3112,8 +3009,8 @@
 					)
 				)
 			)
-			(text "MCU IO \nto App"
-				(at 1.524 -33.274 0)
+			(text "MCU \nto App"
+				(at 4.318 -33.02 0)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -3121,16 +3018,7 @@
 					)
 				)
 			)
-			(text "GND"
-				(at 6.35 -33.02 900)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.1588)
-					)
-				)
-			)
-			(text "MCU IO\nto\nFPGA IO"
+			(text "MCU\nto\nFPGA"
 				(at 7.62 33.02 0)
 				(effects
 					(font
@@ -3139,8 +3027,8 @@
 					)
 				)
 			)
-			(text "VSYS\nEX"
-				(at 10.16 -33.02 0)
+			(text "GND"
+				(at 11.43 -33.02 900)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3157,8 +3045,8 @@
 					)
 				)
 			)
-			(text "V\nApp"
-				(at 15.24 -33.02 0)
+			(text "VSYS\nEX"
+				(at 15.24 -33.274 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3909,7 +3797,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -41.91 90)
+				(at 11.43 -41.91 90)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -3928,7 +3816,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -41.91 90)
+				(at 11.43 -41.91 90)
 				(length 3.81)
 				(name ""
 					(effects
@@ -3946,9 +3834,8 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -41.91 90)
+				(at 8.89 -24.13 270)
 				(length 3.81)
-				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -3965,9 +3852,8 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -41.91 90)
+				(at 8.89 -41.91 90)
 				(length 3.81)
-				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -3984,9 +3870,8 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -41.91 90)
+				(at 6.35 -24.13 270)
 				(length 3.81)
-				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -4183,7 +4068,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -41.91 90)
+				(at -6.35 -41.91 90)
 				(length 3.81)
 				(name ""
 					(effects
@@ -4193,80 +4078,6 @@
 					)
 				)
 				(number "B20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -8.89 -24.13 270)
-				(length 3.81)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 -41.91 90)
-				(length 3.81)
-				(hide yes)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -21.59 -41.91 90)
-				(length 3.81)
-				(hide yes)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B31"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -21.59 -41.91 90)
-				(length 3.81)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B32"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5301,14 +5112,14 @@
 			)
 			(rectangle
 				(start -22.86 -27.94)
-				(end -20.32 -38.1)
+				(end -7.62 -38.1)
 				(stroke
 					(width 0)
 					(type solid)
 				)
 				(fill
 					(type color)
-					(color 0 255 0 0.2)
+					(color 132 132 132 0.6)
 				)
 			)
 			(rectangle
@@ -5343,18 +5154,6 @@
 				(fill
 					(type color)
 					(color 0 255 255 0.3019607843)
-				)
-			)
-			(rectangle
-				(start -20.32 -27.94)
-				(end -10.16 -38.1)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type color)
-					(color 132 132 132 0.6)
 				)
 			)
 			(rectangle
@@ -5454,30 +5253,6 @@
 				)
 			)
 			(rectangle
-				(start -10.16 -27.94)
-				(end -7.62 -33.02)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type color)
-					(color 0 255 255 0.3019607843)
-				)
-			)
-			(rectangle
-				(start -10.16 -33.02)
-				(end -5.08 -38.1)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type color)
-					(color 0 255 0 0.2)
-				)
-			)
-			(rectangle
 				(start -7.62 38.1)
 				(end -5.08 33.02)
 				(stroke
@@ -5511,6 +5286,18 @@
 				(fill
 					(type color)
 					(color 0 255 255 0.3019607843)
+				)
+			)
+			(rectangle
+				(start -7.62 -33.02)
+				(end -5.08 -38.1)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 255 0 0.2)
 				)
 			)
 			(rectangle
@@ -5587,7 +5374,7 @@
 			)
 			(rectangle
 				(start -2.54 -27.94)
-				(end 5.08 -38.1)
+				(end 10.16 -38.1)
 				(stroke
 					(width 0)
 					(type solid)
@@ -5622,19 +5409,7 @@
 				)
 			)
 			(rectangle
-				(start 5.08 -27.94)
-				(end 7.62 -38.1)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type color)
-					(color 0 255 0 0.2)
-				)
-			)
-			(rectangle
-				(start 7.62 -27.94)
+				(start 10.16 -27.94)
 				(end 12.7 -38.1)
 				(stroke
 					(width 0)
@@ -5642,7 +5417,7 @@
 				)
 				(fill
 					(type color)
-					(color 0 0 255 0.4)
+					(color 0 255 0 0.2)
 				)
 			)
 			(rectangle
@@ -5836,15 +5611,6 @@
 					)
 				)
 			)
-			(text "GND"
-				(at -21.59 -33.02 900)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.1588)
-					)
-				)
-			)
 			(text "Extra/\nCFG 6"
 				(at -19.05 35.56 900)
 				(effects
@@ -5934,23 +5700,6 @@
 					)
 				)
 			)
-			(text "V MCU"
-				(at -8.89 -30.48 900)
-				(effects
-					(font
-						(size 0.6858 0.6858)
-					)
-				)
-			)
-			(text "GND"
-				(at -7.62 -35.56 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.1588)
-					)
-				)
-			)
 			(text "JTAG\nTDI"
 				(at -6.35 35.306 900)
 				(effects
@@ -5967,11 +5716,20 @@
 					)
 				)
 			)
-			(text "V MCU"
+			(text "V_MCU"
 				(at -6.35 -30.48 900)
 				(effects
 					(font
-						(size 0.6858 0.6858)
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(text "GND"
+				(at -6.35 -35.56 900)
+				(effects
+					(font
+						(size 1.016 1.016)
+						(thickness 0.1588)
 					)
 				)
 			)
@@ -5991,7 +5749,7 @@
 					)
 				)
 			)
-			(text "ADC 2\nDetect"
+			(text "APP\nDTCT"
 				(at -3.81 -30.48 900)
 				(effects
 					(font
@@ -5999,11 +5757,11 @@
 					)
 				)
 			)
-			(text "ADC 1\nDetect"
+			(text "FPGA\nDTCT"
 				(at -3.81 -35.56 900)
 				(effects
 					(font
-						(size 0.6858 0.6858)
+						(size 0.762 0.762)
 					)
 				)
 			)
@@ -6032,8 +5790,8 @@
 					)
 				)
 			)
-			(text "MCU IO\nto App"
-				(at 1.27 -33.02 0)
+			(text "MCU\nto App"
+				(at 4.318 -33.02 0)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -6041,16 +5799,7 @@
 					)
 				)
 			)
-			(text "GND"
-				(at 6.35 -33.02 900)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.1588)
-					)
-				)
-			)
-			(text "MCU IO\nto\nFPGA IO"
+			(text "MCU\nto\nFPGA"
 				(at 7.62 33.02 0)
 				(effects
 					(font
@@ -6059,8 +5808,8 @@
 					)
 				)
 			)
-			(text "VSYS\nEX"
-				(at 10.16 -33.02 0)
+			(text "GND"
+				(at 11.43 -33.02 900)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6077,7 +5826,7 @@
 					)
 				)
 			)
-			(text "V\nApp"
+			(text "VSYS\nEX"
 				(at 15.24 -33.02 0)
 				(effects
 					(font
@@ -6754,7 +6503,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -41.91 90)
+				(at 11.43 -41.91 90)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -6764,7 +6513,7 @@
 						)
 					)
 				)
-				(number "B9"
+				(number "B5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6773,7 +6522,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -41.91 90)
+				(at 11.43 -41.91 90)
 				(length 3.81)
 				(name ""
 					(effects
@@ -6782,25 +6531,7 @@
 						)
 					)
 				)
-				(number "B10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -3.81 -24.13 270)
-				(length 3.81)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B17"
+				(number "B6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6845,7 +6576,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -41.91 90)
+				(at -6.35 -41.91 90)
 				(length 3.81)
 				(name ""
 					(effects
@@ -6881,9 +6612,8 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -41.91 90)
+				(at -8.89 -41.91 90)
 				(length 3.81)
-				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -7044,9 +6774,8 @@
 				)
 			)
 			(pin passive line
-				(at -21.59 -41.91 90)
+				(at -21.59 -24.13 270)
 				(length 3.81)
-				(hide yes)
 				(name ""
 					(effects
 						(font
