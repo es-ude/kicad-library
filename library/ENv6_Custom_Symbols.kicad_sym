@@ -1158,8 +1158,9 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 -24.13 270)
+				(at 11.43 -41.91 90)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
