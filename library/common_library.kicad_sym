@@ -10163,7 +10163,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "PKK2_CON"
+	(symbol "PPK2_CON"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10179,7 +10179,7 @@
 				)
 			)
 		)
-		(property "Value" "PKK2_CON"
+		(property "Value" "PPK2_CON"
 			(at 0 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10189,7 +10189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom_library:PKK2"
+		(property "Footprint" "custom_library:PPK2"
 			(at 0 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10222,7 +10222,7 @@
 				)
 			)
 		)
-		(symbol "PKK2_CON_1_1"
+		(symbol "PPK2_CON_1_1"
 			(rectangle
 				(start -7.62 0.635)
 				(end 7.62 -23.495)
