@@ -1,13 +1,13 @@
 (footprint "logo_ude"
-	(version 20240108)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "G***"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "b7fb1dac-5678-4004-9862-b3d14c7105db")
+		(uuid "f65c8861-7f65-4e5d-8bcd-35bad902fc50")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -19,7 +19,7 @@
 		(at 0.75 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "37dcf5c4-c1bf-4489-81f9-0ea20e15e97f")
+		(uuid "ca437867-7cc6-4e8a-917d-d6717d7dfabc")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -27,23 +27,11 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e6f56908-8dda-4811-a174-0ed27a6be5db")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e210d964-f88f-40fa-a733-3264c6ef89fd")
+		(uuid "327a3bc9-8f06-4959-8074-dd5067dd2e98")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "27fd22ff-c284-49c6-95ae-8d8e5959c7c3")
+		(uuid "f16e2693-71a7-4ce1-8812-fd062ab019a0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -64,6 +52,7 @@
 		)
 	)
 	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy 0.371021 -0.388162) (xy 0.440359 -0.387614) (xy 0.505447 -0.38676) (xy 0.564239 -0.385643) (xy 0.614686 -0.384302)
@@ -101,9 +90,9 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
-		(uuid "4a4186a3-79be-436e-8144-93b29ca18059")
+		(uuid "2fae5aa0-6c3a-4b6d-b168-e418d14297fb")
 	)
 	(fp_poly
 		(pts
@@ -146,9 +135,9 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
-		(uuid "d4a57d2a-616f-471d-81ae-184f203d4fdd")
+		(uuid "326d4937-fed2-46b3-927f-635b1255babc")
 	)
 	(fp_poly
 		(pts
@@ -199,9 +188,9 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
-		(uuid "bc86f800-c996-482d-a355-8f67d809c2d9")
+		(uuid "0ed81b30-2856-472d-9058-3ec741738cc6")
 	)
 	(fp_poly
 		(pts
@@ -254,8 +243,9 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
-		(uuid "5675b8f5-a15e-4097-9cf8-6b695c1e8a8e")
+		(uuid "1201c116-b79e-429a-87e5-a49045679581")
 	)
+	(embedded_fonts no)
 )
