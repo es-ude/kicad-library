@@ -12740,7 +12740,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.silabs.com/documents/public/data-sheets/Si5351-B.pdf"
+		(property "Datasheet" "https://www.skyworksinc.com/-/media/SkyWorks/SL/documents/public/data-sheets/Si5351-B.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
