@@ -3932,7 +3932,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "AMJMAFB-100.0000T:XTAL_AMJMAFB-100.0000T"
+		(property "Footprint" "custom_library:XTAL_AMJMAFB-100.0000T"
 			(at -1.27 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3944,7 +3944,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/3/AMJM-1381355.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3955,7 +3955,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Abracon AMJM MEMS oscillator, 100 MHz, +-25 ppm, 1.71-3.63 V, CMOS, pin 1 = STBY, VFLGA-4 2.0x1.6 mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3966,55 +3966,7 @@
 				)
 			)
 		)
-		(property "MF" "Abracon Corporation"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.89 mm"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "Package"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/AMJMAFB-100.0000T/Abracon/view-part/?ref=eda"
+		(property "Manufacturer" "Abracon"
 			(at -1.27 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4026,7 +3978,7 @@
 				(justify bottom)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
+		(property "MPN" "AMJMAFB-100.0000T"
 			(at -1.27 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4038,7 +3990,7 @@
 				(justify bottom)
 			)
 		)
-		(property "PARTREV" "04/07/2021"
+		(property "ki_fp_filters" "XTAL_AMJMAFB*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4047,79 +3999,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AMJMAFB-100.0000T/Abracon/view-part/?ref=snap"
-			(at -1.27 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "AMJMAFB-100.0000T"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "Oscillator MEMS 100MHz ±25ppm (Stability) CMOS 55% 1.8V/2.5V/3.3V 4-Pin VFLGA SMD T/R"
-			(at -1.27 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Abracon"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SNAPEDA_PN" "AMJMAFB-100.0000T"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 			)
 		)
 		(symbol "AMJMAFB-100.0000T_0_0"
@@ -4137,7 +4016,7 @@
 			(pin passive line
 				(at -13.97 5.08 0)
 				(length 5.08)
-				(name "OE/STDBY"
+				(name "STBY"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12709,7 +12588,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "J"
+		(property "Reference" "U"
 			(at 0 24.384 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13728,7 +13607,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "IC"
+		(property "Reference" "U"
 			(at -0.762 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13750,7 +13629,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:WQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm"
+		(property "Footprint" "custom_library:WQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm_TI_RUK0020"
 			(at 24.13 -84.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13848,7 +13727,7 @@
 		(symbol "TXB0108RUKR_1_1"
 			(rectangle
 				(start -8.89 16.51)
-				(end 8.89 -15.24)
+				(end 8.89 -12.7)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -13857,7 +13736,19 @@
 					(type background)
 				)
 			)
-			(pin passive line
+			(polyline
+				(pts
+					(xy 0 15.24) (xy 0 -12.065)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin bidirectional line
 				(at -13.97 8.89 0)
 				(length 5.08)
 				(name "A2"
@@ -13875,7 +13766,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -13.97 6.35 0)
 				(length 5.08)
 				(name "A3"
@@ -13893,7 +13784,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -13.97 3.81 0)
 				(length 5.08)
 				(name "A4"
@@ -13911,7 +13802,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -13.97 1.27 0)
 				(length 5.08)
 				(name "A5"
@@ -13929,7 +13820,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -13.97 -1.27 0)
 				(length 5.08)
 				(name "A6"
@@ -13947,7 +13838,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -13.97 -3.81 0)
 				(length 5.08)
 				(name "A7"
@@ -13965,7 +13856,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -13.97 -6.35 0)
 				(length 5.08)
 				(name "A8"
@@ -13983,7 +13874,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -13.97 -10.16 0)
 				(length 5.08)
 				(name "OE"
@@ -14019,7 +13910,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 13.97 -6.35 180)
 				(length 5.08)
 				(name "B8"
@@ -14037,7 +13928,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 13.97 -3.81 180)
 				(length 5.08)
 				(name "B7"
@@ -14055,7 +13946,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 13.97 -1.27 180)
 				(length 5.08)
 				(name "B6"
@@ -14073,7 +13964,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 13.97 1.27 180)
 				(length 5.08)
 				(name "B5"
@@ -14091,7 +13982,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 13.97 3.81 180)
 				(length 5.08)
 				(name "B4"
@@ -14109,7 +14000,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 13.97 6.35 180)
 				(length 5.08)
 				(name "B3"
@@ -14127,7 +14018,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 13.97 8.89 180)
 				(length 5.08)
 				(name "B2"
@@ -14163,7 +14054,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 13.97 11.43 180)
 				(length 5.08)
 				(name "B1"
@@ -14181,7 +14072,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -13.97 11.43 0)
 				(length 5.08)
 				(name "A1"
@@ -14218,8 +14109,9 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 -12.7 180)
+				(at 13.97 -10.16 180)
 				(length 5.08)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
