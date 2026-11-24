@@ -3835,7 +3835,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "MEM20520019500A"
+		(property "Footprint" "ui_stuff:MEM20520019500A"
 			(at 31.75 -94.92 0)
 			(show_name no)
 			(do_not_autoplace no)
