@@ -1572,7 +1572,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "QFN50P500X500X100-29N-D"
+		(property "Footprint" "custom_library:QFN50P500X500X100-29N-D"
 			(at -14.478 -2.032 0)
 			(show_name no)
 			(do_not_autoplace no)
