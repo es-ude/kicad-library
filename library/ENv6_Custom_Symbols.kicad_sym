@@ -995,8 +995,9 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 41.91 270)
+				(at -53.34 15.24 0)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -1013,7 +1014,7 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 41.91 270)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -1222,8 +1223,9 @@
 				)
 			)
 			(pin passive line
-				(at -1.27 41.91 270)
+				(at -53.34 15.24 0)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -1240,7 +1242,7 @@
 				)
 			)
 			(pin passive line
-				(at -1.27 41.91 270)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -1637,7 +1639,7 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 -41.91 90)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -1656,8 +1658,9 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 -41.91 90)
+				(at -53.34 15.24 0)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -1890,7 +1893,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -41.91 90)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -1909,8 +1912,9 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -41.91 90)
+				(at -53.34 15.24 0)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -2144,7 +2148,7 @@
 				)
 			)
 			(pin passive line
-				(at 53.34 19.05 180)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -2163,8 +2167,9 @@
 				)
 			)
 			(pin passive line
-				(at 53.34 19.05 180)
+				(at -53.34 15.24 0)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -2180,7 +2185,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 53.34 13.97 180)
 				(length 3.81)
 				(hide yes)
@@ -2199,9 +2204,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 53.34 13.97 180)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -2217,7 +2223,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 53.34 13.97 180)
 				(length 3.81)
 				(hide yes)
@@ -2236,7 +2242,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 53.34 13.97 180)
 				(length 3.81)
 				(hide yes)
@@ -2255,7 +2261,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 53.34 13.97 180)
 				(length 3.81)
 				(hide yes)
@@ -2274,7 +2280,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 53.34 13.97 180)
 				(length 3.81)
 				(hide yes)
@@ -2294,7 +2300,7 @@
 				)
 			)
 			(pin passive line
-				(at 53.34 8.89 180)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -2313,8 +2319,9 @@
 				)
 			)
 			(pin passive line
-				(at 53.34 8.89 180)
+				(at -53.34 15.24 0)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -2330,7 +2337,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 53.34 3.81 180)
 				(length 3.81)
 				(hide yes)
@@ -2349,9 +2356,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 53.34 3.81 180)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -2367,7 +2375,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 53.34 3.81 180)
 				(length 3.81)
 				(hide yes)
@@ -2386,7 +2394,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 53.34 3.81 180)
 				(length 3.81)
 				(hide yes)
@@ -2405,7 +2413,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 53.34 3.81 180)
 				(length 3.81)
 				(hide yes)
@@ -2424,7 +2432,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 53.34 3.81 180)
 				(length 3.81)
 				(hide yes)
@@ -2444,7 +2452,7 @@
 				)
 			)
 			(pin passive line
-				(at 53.34 -1.27 180)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -2463,8 +2471,9 @@
 				)
 			)
 			(pin passive line
-				(at 53.34 -1.27 180)
+				(at -53.34 15.24 0)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -2480,7 +2489,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 53.34 -6.35 180)
 				(length 3.81)
 				(hide yes)
@@ -2499,9 +2508,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 53.34 -6.35 180)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -2517,7 +2527,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 53.34 -6.35 180)
 				(length 3.81)
 				(hide yes)
@@ -2536,7 +2546,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 53.34 -6.35 180)
 				(length 3.81)
 				(hide yes)
@@ -2555,7 +2565,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 53.34 -6.35 180)
 				(length 3.81)
 				(hide yes)
@@ -2574,7 +2584,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 53.34 -6.35 180)
 				(length 3.81)
 				(hide yes)
@@ -2594,7 +2604,7 @@
 				)
 			)
 			(pin passive line
-				(at 53.34 -11.43 180)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -2613,8 +2623,9 @@
 				)
 			)
 			(pin passive line
-				(at 53.34 -11.43 180)
+				(at -53.34 15.24 0)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -2895,8 +2906,9 @@
 				)
 			)
 			(pin passive line
-				(at -53.34 -15.24 0)
+				(at -53.34 15.24 0)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -2913,7 +2925,7 @@
 				)
 			)
 			(pin passive line
-				(at -53.34 -15.24 0)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -2932,7 +2944,7 @@
 				)
 			)
 			(pin passive line
-				(at -53.34 -15.24 0)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -2951,7 +2963,7 @@
 				)
 			)
 			(pin passive line
-				(at -53.34 -15.24 0)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -2970,7 +2982,7 @@
 				)
 			)
 			(pin passive line
-				(at -53.34 -15.24 0)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -2989,7 +3001,7 @@
 				)
 			)
 			(pin passive line
-				(at -53.34 -15.24 0)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -3008,7 +3020,7 @@
 				)
 			)
 			(pin passive line
-				(at -53.34 -15.24 0)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -3027,7 +3039,7 @@
 				)
 			)
 			(pin passive line
-				(at -53.34 -15.24 0)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -4040,8 +4052,9 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 41.91 270)
+				(at -53.34 15.24 0)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -4058,7 +4071,7 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 41.91 270)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -4257,8 +4270,9 @@
 				)
 			)
 			(pin passive line
-				(at -1.27 41.91 270)
+				(at -53.34 15.24 0)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -4275,7 +4289,7 @@
 				)
 			)
 			(pin passive line
-				(at -1.27 41.91 270)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -4657,7 +4671,7 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 -41.91 90)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -4676,8 +4690,9 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 -41.91 90)
+				(at -53.34 15.24 0)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -4922,7 +4937,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -41.91 90)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -4941,8 +4956,9 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -41.91 90)
+				(at -53.34 15.24 0)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -5175,7 +5191,7 @@
 				)
 			)
 			(pin passive line
-				(at 53.34 19.05 180)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -5194,8 +5210,9 @@
 				)
 			)
 			(pin passive line
-				(at 53.34 19.05 180)
+				(at -53.34 15.24 0)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -5325,7 +5342,7 @@
 				)
 			)
 			(pin passive line
-				(at 53.34 8.89 180)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -5344,8 +5361,9 @@
 				)
 			)
 			(pin passive line
-				(at 53.34 8.89 180)
+				(at -53.34 15.24 0)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -5475,7 +5493,7 @@
 				)
 			)
 			(pin passive line
-				(at 53.34 -1.27 180)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -5494,8 +5512,9 @@
 				)
 			)
 			(pin passive line
-				(at 53.34 -1.27 180)
+				(at -53.34 15.24 0)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -5625,7 +5644,7 @@
 				)
 			)
 			(pin passive line
-				(at 53.34 -11.43 180)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -5644,8 +5663,9 @@
 				)
 			)
 			(pin passive line
-				(at 53.34 -11.43 180)
+				(at -53.34 15.24 0)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -5926,8 +5946,9 @@
 				)
 			)
 			(pin passive line
-				(at -53.34 -15.24 0)
+				(at -53.34 15.24 0)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -5944,7 +5965,7 @@
 				)
 			)
 			(pin passive line
-				(at -53.34 -15.24 0)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -5963,7 +5984,7 @@
 				)
 			)
 			(pin passive line
-				(at -53.34 -15.24 0)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -5982,7 +6003,7 @@
 				)
 			)
 			(pin passive line
-				(at -53.34 -15.24 0)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -6001,7 +6022,7 @@
 				)
 			)
 			(pin passive line
-				(at -53.34 -15.24 0)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -6020,7 +6041,7 @@
 				)
 			)
 			(pin passive line
-				(at -53.34 -15.24 0)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -6039,7 +6060,7 @@
 				)
 			)
 			(pin passive line
-				(at -53.34 -15.24 0)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -6058,7 +6079,7 @@
 				)
 			)
 			(pin passive line
-				(at -53.34 -15.24 0)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -7072,8 +7093,9 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 41.91 270)
+				(at -53.34 15.24 0)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -7090,7 +7112,7 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 41.91 270)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -7289,8 +7311,9 @@
 				)
 			)
 			(pin passive line
-				(at -1.27 41.91 270)
+				(at -53.34 15.24 0)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -7307,7 +7330,7 @@
 				)
 			)
 			(pin passive line
-				(at -1.27 41.91 270)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -7689,7 +7712,7 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 -41.91 90)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -7708,8 +7731,9 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 -41.91 90)
+				(at -53.34 15.24 0)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -7942,7 +7966,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -41.91 90)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -7961,8 +7985,9 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -41.91 90)
+				(at -53.34 15.24 0)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -8205,7 +8230,7 @@
 				)
 			)
 			(pin passive line
-				(at 53.34 19.05 180)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -8224,8 +8249,9 @@
 				)
 			)
 			(pin passive line
-				(at 53.34 19.05 180)
+				(at -53.34 15.24 0)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -8355,7 +8381,7 @@
 				)
 			)
 			(pin passive line
-				(at 53.34 8.89 180)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -8374,8 +8400,9 @@
 				)
 			)
 			(pin passive line
-				(at 53.34 8.89 180)
+				(at -53.34 15.24 0)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -8505,7 +8532,7 @@
 				)
 			)
 			(pin passive line
-				(at 53.34 -1.27 180)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -8524,8 +8551,9 @@
 				)
 			)
 			(pin passive line
-				(at 53.34 -1.27 180)
+				(at -53.34 15.24 0)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -8655,7 +8683,7 @@
 				)
 			)
 			(pin passive line
-				(at 53.34 -11.43 180)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -8674,8 +8702,9 @@
 				)
 			)
 			(pin passive line
-				(at 53.34 -11.43 180)
+				(at -53.34 15.24 0)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -8956,8 +8985,9 @@
 				)
 			)
 			(pin passive line
-				(at -53.34 -15.24 0)
+				(at -53.34 15.24 0)
 				(length 3.81)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -8974,7 +9004,7 @@
 				)
 			)
 			(pin passive line
-				(at -53.34 -15.24 0)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -8993,7 +9023,7 @@
 				)
 			)
 			(pin passive line
-				(at -53.34 -15.24 0)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -9012,7 +9042,7 @@
 				)
 			)
 			(pin passive line
-				(at -53.34 -15.24 0)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -9031,7 +9061,7 @@
 				)
 			)
 			(pin passive line
-				(at -53.34 -15.24 0)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -9050,7 +9080,7 @@
 				)
 			)
 			(pin passive line
-				(at -53.34 -15.24 0)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -9069,7 +9099,7 @@
 				)
 			)
 			(pin passive line
-				(at -53.34 -15.24 0)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
@@ -9088,7 +9118,7 @@
 				)
 			)
 			(pin passive line
-				(at -53.34 -15.24 0)
+				(at -53.34 15.24 0)
 				(length 3.81)
 				(hide yes)
 				(name ""
